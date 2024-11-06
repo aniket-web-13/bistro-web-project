@@ -1,0 +1,93 @@
+// Medium devices (tablets, 768px and up)
+@media (max-width: 428px) {
+
+    h2 {
+        font-size: 2.8rem !important;
+    }
+
+    .headlogo {
+
+        img {
+            width: 80% !important;
+        }
+    }
+
+    p {
+        font-size: 0.875rem !important;
+    }
+
+
+    .menuDesp {
+
+        width: 85% !important;
+
+        h1 {
+            font-size: 3.3rem !important;
+        }
+
+    }
+
+    .brandBox {
+
+        .brandInfo {
+            width: 100% !important;
+        }
+
+        .appRow3,
+        .appRow2,
+        .appRow1 {
+            width: 53% !important;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center !important;
+            row-gap: 1.5rem;
+        }
+    }
+
+    .centerd {
+        h1 {
+            font-size: 4rem !important;
+        }
+    }
+
+    .mergImg {
+        display: none !important;
+    }
+
+    .img1 {
+        display: none !important;
+    }
+
+    .colImg {
+        display: none !important;
+    }
+
+    .burgir {
+        display: none !important;
+    }
+
+    .foonInrCont {
+        justify-content: space-around !important;
+    }
+
+    .bloghead {
+        width: 80% !important;
+        justify-content: space-around !important;
+    }
+
+    // book a table
+
+    .batsec {
+        .tableInfo {
+            h1 {
+                font-size: 3.5rem !important;
+            }
+        }
+    }
+
+    /* hamBox position */
+
+    #hamBox {
+        top: 7.2% !important;
+    }
+}

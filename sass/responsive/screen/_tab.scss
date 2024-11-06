@@ -1,0 +1,247 @@
+// Medium devices (tablets, 768px and up)
+@media (max-width: 1024px) {
+
+    .headlogo {
+
+        ul,
+        .bookbtn {
+
+            display: none !important;
+
+        }
+
+        .hamMenubtn {
+            display: block !important;
+        }
+    }
+
+
+    .mainContainer {
+
+        width: 90% !important;
+
+        .articleRow {
+            justify-content: center !important;
+            column-gap: 2rem !important;
+        }
+
+    }
+
+    .footbox {
+        width: 90% !important;
+    }
+
+    .brandBox {
+        flex-direction: column !important;
+        row-gap: 2rem !important;
+
+
+        .brandInfo {
+            width: 80% !important;
+            text-align: center !important;
+            row-gap: 2rem !important;
+            padding: 1% !important;
+
+            h2 {
+                text-align: center !important;
+            }
+        }
+
+        .brandtag {
+            width: 100% !important;
+        }
+
+        .appRow1 {
+            width: 64% !important;
+        }
+
+        .appRow2 {
+            width: 76% !important;
+        }
+
+        .appRow3 {
+            width: 67% !important;
+        }
+
+        .appBox {
+            padding: 1rem 1rem !important;
+        }
+
+    }
+
+    .menucard {
+        justify-content: center !important;
+    }
+
+    .menuUlbtn {
+
+        ul {
+            row-gap: 1rem !important;
+        }
+    }
+
+    .menuItem:nth-child(7) {
+
+        display: block !important;
+
+    }
+
+    .menuItem:nth-child(8) {
+
+        display: block !important;
+
+    }
+
+    .centerd {
+        width: 65% !important;
+    }
+
+    .menubox {
+        width: 80% !important;
+        justify-content: space-evenly !important;
+    }
+
+    .merg {
+        width: 80% !important;
+        flex-direction: column !important;
+        row-gap: 4rem !important;
+
+        .mergImg {
+            width: 82.2% !important;
+        }
+
+        .cvus {
+            width: 52% !important;
+            left: 50% !important;
+
+        }
+
+        .cuvs2 {
+            width: 70% !important;
+        }
+    }
+
+    .subBox {
+        width: 80% !important;
+
+        .box {
+            row-gap: 1.5rem !important;
+            justify-content: space-evenly !important;
+        }
+    }
+
+    .main {
+        width: 80% !important;
+        flex-direction: column !important;
+        row-gap: 1rem;
+
+        .imgSec {
+            width: 91% !important;
+            flex-wrap: nowrap;
+        }
+
+        .infoSec {
+            width: 55% !important;
+
+            p {
+                padding: 1% !important;
+            }
+        }
+
+    }
+
+    .customerBox {
+        width: 85% !important;
+        justify-content: space-around !important;
+        row-gap: 1rem !important;
+    }
+
+    .blogBox {
+        width: 80% !important;
+        justify-content: center;
+
+
+        .bloghead {
+            width: 100% !important;
+            align-items: center !important;
+            row-gap: 1rem;
+        }
+
+        .ourfoodContainer {
+
+            justify-content: space-around !important;
+            row-gap: 1rem !important;
+
+            .foonInrCont {
+                width: 78% !important;
+                row-gap: 1rem;
+                column-gap: 1rem;
+            }
+
+        }
+    }
+
+
+
+    // book a table
+
+    .container {
+        width: 90% !important;
+    }
+
+
+    .tableBox {
+        width: 81% !important;
+
+        .tableInfo {
+            width: 81% !important;
+        }
+    }
+
+    //  About Bistro page
+    .innerInfo1 h2 {
+        text-align: left !important;
+        font-size: 2.5rem !important;
+    }
+
+    //  About Bistro page section 2
+
+    .containtBox2 {
+        width: 80% !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        row-gap: 1.5rem !important;
+
+        .innerContainBox1 {
+            width: 95% !important;
+
+            .innerInfo2 {
+                justify-content: space-evenly !important;
+            }
+        }
+
+        .innerContainBox2 {
+            width: 90% !important;
+
+            img {
+                aspect-ratio: 4/3 !important;
+                border-radius: 1rem !important;
+            }
+        }
+    }
+
+    //  About Bistro page section 3
+    .containtBox3 {
+        width: 80% !important;
+
+        .infoSecbox {
+            width: 70% !important;
+        }
+
+        .aboutCardRow {
+            justify-content: space-evenly !important;
+            row-gap: 1.5rem !important;
+        }
+    }
+
+}

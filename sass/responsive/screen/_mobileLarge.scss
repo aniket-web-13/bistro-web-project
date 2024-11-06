@@ -1,0 +1,202 @@
+// large devices (tablets, 425px and up)
+@media (max-width: 768px) {
+
+    // header //
+    .menuTopbar {
+        display: none !important;
+    }
+
+    .blogDesp {
+
+        width: 100% !important;
+        row-gap: 1rem !important;
+    }
+
+    .fImg {
+        display: none !important;
+    }
+
+    // footer //
+
+    footer {
+
+        padding: 1rem !important;
+
+
+        .footbox {
+
+            flex-wrap: wrap !important;
+            row-gap: 1rem !important;
+
+
+            .footlogo {
+
+                width: 100% !important;
+                height: 50% !important;
+                row-gap: 1rem !important;
+
+            }
+
+            .boxPUP {
+
+                width: 100% !important;
+            }
+        }
+    }
+
+    //        //
+
+    .cvus {
+        left: 60% !important;
+    }
+
+    .menuDesp {
+
+        width: 85% !important;
+
+        h1 {
+            font-size: 6rem !important;
+        }
+
+    }
+
+    .brandBox {
+
+        .appRow1 {
+            width: 83% !important;
+        }
+
+        .appRow2 {
+            width: 99% !important;
+        }
+
+        .appRow3 {
+            width: 87% !important;
+        }
+
+
+
+    }
+
+    //  home page index.html css    //
+
+    .centerd {
+        width: 80% !important;
+    }
+
+    .menubox {
+        width: 85% !important;
+
+    }
+
+    .merg {
+        width: 98% !important;
+    }
+
+    .subBox {
+        width: 90% !important;
+        row-gap: 1rem !important;
+
+        .box {
+            row-gap: 1rem;
+        }
+    }
+
+    .main {
+        width: 90% !important;
+
+        .imgSec {
+            width: 100% !important;
+            justify-content: space-around !important;
+
+
+            .colImg {
+                display: none !important;
+            }
+        }
+
+        .infoSec {
+            width: 70% !important;
+        }
+
+
+    }
+
+    // homepage section 6 //
+
+    .blogBox {
+        width: 85% !important;
+    }
+
+    .blogBox .ourfoodContainer .foonInrCont {
+        width: 98% !important;
+
+    }
+
+    //  book a table
+
+
+    .tableBox {
+
+        .tableInfo {
+            width: 95% !important;
+        }
+
+        .tblForm {
+            width: 83% !important;
+        }
+    }
+
+    // About Bistro page section 1
+
+    .containtBox {
+
+        .aboutHeading {
+            h2 {
+                font-size: 2.5rem !important;
+            }
+        }
+    }
+
+    // About page section 2
+
+    .containtBox2 {
+        width: 95% !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        row-gap: 1.5rem !important;
+
+        .innerContainBox1 {
+            width: 95% !important;
+
+            .innerInfo2 {
+                justify-content: space-evenly !important;
+            }
+        }
+
+        .innerContainBox2 {
+            width: 90% !important;
+
+            img {
+                aspect-ratio: 4/3 !important;
+            }
+        }
+    }
+
+    // About Bistro page section 3
+
+    .containtBox3 {
+        width: 90% !important;
+
+        .infoSecbox {
+            width: 75% !important;
+        }
+    }
+
+
+
+    /* hambox position */
+    #hamBox{
+        top: 8.3% !important;
+    }
+}

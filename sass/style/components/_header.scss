@@ -1,0 +1,123 @@
+header {
+    width: 100%;
+
+    .menuTopbar{
+        background-color: #474747;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+        .topBox{
+            width: 70%;
+            height: fit-content;       
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+        }
+    
+        .toplink{
+            
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            
+            
+            .icon{
+                color: #F9F9F7;
+                padding: 10px;
+                a{
+                    color: #F9F9F7;
+                    text-decoration: none;
+                }
+            }
+        }
+        .topLogo{
+            width: 12%;       
+            height: fit-content;                   
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+            ul{
+                margin: 0;
+                display: flex;
+                flex-direction: row;    
+                       
+              li{
+                list-style: none;
+                padding: 0.3rem;
+              }
+            }
+        }
+    }
+
+    nav {
+        .headlogo {
+            // background-color: white;                     
+            width: 70%;
+            height: fit-content;            
+            padding-top: 0;            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            
+            .headlogoC{
+                background-color: #739b07;
+            }
+          
+          
+        }
+
+      
+            ul {
+                display: flex;  
+                list-style: none;           
+
+
+                .navbtn {
+                    @include navbtn();
+
+                    &:hover {
+                        background-color: #DBDFD0;
+                        transition: 500ms;
+
+                    }
+                }
+            
+
+        }
+    }
+
+    div {
+        div {         
+
+            p {
+                font-size: 1.125rem;
+                line-height: 2rem;
+            }
+
+            .imgobtn {
+                @include imgbtn(white,#AD343E);
+
+                &:hover {
+                    @include imgbtn(#AD343E,white);               
+                }
+            }
+
+            .imgsbtn {
+                @include imgbtn(#2C2F24,white);
+
+                &:hover {
+                    @include imgbtn(white,#2C2F24);                   
+                }
+            }
+        }
+    }
+
+}

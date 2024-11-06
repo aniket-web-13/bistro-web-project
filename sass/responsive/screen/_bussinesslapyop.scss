@@ -1,0 +1,119 @@
+// Large devices (desktops, 992px and up)
+@media (max-width: 1440px) {
+
+    // =================== //
+    .headlogo {
+        width: 85% !important;
+    }
+
+    // =================== //
+    .container {
+        width: 85% !important;
+    }
+
+    // =================== //
+    .brandBox {
+
+        justify-content: center !important;
+
+
+        .brandInfo {
+
+            width: 30% !important;
+
+            h2 {
+                padding: 1rem 0 !important;
+
+                font-size: 3rem !important;
+            }
+        }
+
+        .appBox {
+            padding: 1rem 1.5rem !important;
+        }
+    }
+
+    // =================== //
+    .menuItem:nth-child(7) {
+
+        display: none !important;
+
+    }
+
+    // =================== //
+    .menuItem:nth-child(8) {
+
+        display: none !important;
+
+    }
+
+    // =================== //
+    .merg {
+        width: 93% !important;
+    }
+
+    // =================== //
+    .subBox {
+        width: 94% !important;
+    }
+
+    // =================== //
+    .menubox {
+        width: 94% !important;
+    }
+
+    //  =================== //
+    .main {
+        width: 95% !important;
+    }
+
+    //  =================== //
+    .customerBox {
+        width: 95% !important;
+    }
+
+    //  =================== //
+    .blogBox {
+        width: 96% !important;
+    }
+
+    .menucard {
+        gap: 3.5rem !important;
+    }
+
+    //  book a table
+
+    .tableBox {
+        width: 70% !important;
+
+
+        .tblForm {
+            width: 70% !important;
+        }
+    }
+
+    // About page =================
+
+    // About page section 1
+
+    .containtBox {
+        width: 90% !important;
+
+        .innerTextH {
+            width: 90% !important;
+        }
+    }
+
+    // About page section 2
+
+    .containtBox2 {
+        width: 95% !important;
+    }
+
+    // About page section 3
+
+    .containtBox3 {
+        width: 95% !important;
+    }
+
+}

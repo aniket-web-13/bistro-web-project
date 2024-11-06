@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+.menusec1 {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .menuInfo {
+        width: 70%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+
+        .ourMenu {
+            @include flexCenter(column);
+            width: 70%;
+            height: 25%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+
+
+            .menuDesp {
+                width: 80%;
+                height: 70%;
+                padding: 5% 0;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+
+            // .innerDesp{
+            //     width: 80%;
+            //     height: 100%;
+            //     border: 1px solid black;
+            //     display: flex;
+            //     flex-direction: column;
+            //     justify-content: center;
+            // }
+
+            .menuUlbtn {
+                width: 100%;
+                height: fit-content;
+                padding: 5% 0;
+            }
+
+            ul {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+                column-gap: 10p;
+                padding: 0.5rem;
+
+                .menubtn1 {
+                    @include menubtn(white, #AD343E, 120px)
+                }
+
+                .menubtn {
+                    @include menubtn(black, white, 150px)
+                }
+            }
+        }
+
+        .menucard {
+            width: 100%;
+            height: fit-content;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 1.5rem;
+
+            .menuItem {
+                width: 306px;
+                height: 428px;
+                box-sizing: border-box;
+                border-radius: 12px;
+                border: 1px solid lightgray;
+
+                .itemInfo {
+                    width: 100%;
+                    padding: 1rem;
+                    text-align: center;
+                    position: relative;
+
+
+
+                    h3 {
+                        color: #AD343E;
+                        padding: 5%;
+
+                    }
+
+                    b {
+                        font-size: 20px;
+                        line-height: 26px;
+                        padding: 2%;
+                    }
+
+                }
+            }
+
+            .menuItem:hover {
+                box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4), 0 2px 5px 0 rgba(0, 0, 0, 0.20);
+            }
+        }
+    }
+}
+
+.brandsec {
+    width: 100%;
+    padding: 5% 0;
+    background-color: #F9F9F7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+    .brandBox {
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        padding: 3% 0;
+        align-items: center;
+        justify-content: space-between;
+
+
+
+        .brandInfo {
+            width: 30%;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1rem;
+
+            h2 {
+                text-align: left;
+                padding: 0.5rem;
+            }
+
+            p {
+                padding: 0.5rem;
+            }
+
+            // .infoOrder {
+            //     width: 75%;
+            //     height: 60%;
+            //     display: flex;
+            //     flex-direction: column;
+            //     row-gap: 1rem;
+            //     border: 1px solid black;
+
+            //    
+            // }
+        }
+
+        .brandtag {
+            width: 65%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            row-gap: 2rem;
+            align-items: center;
+
+
+            .appBox {
+                padding: 1.5rem 3rem;
+                background-color: #FFFFFF;
+                border-radius: 0.75rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid lightgray;
+                box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5), 0 4px 10px 0 rgba(0, 0, 0, 0.10);
+
+            }
+
+            .appRow1 {
+                width: 86%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+
+            }
+
+            .appRow2 {
+                width: 98%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+            }
+
+            .appRow3 {
+                width: 89%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+            }
+        }
+    }
+}

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bristo Home Page</title>
+    <link rel="stylesheet" href="dist/responsive.css">
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="dist/reset.css">
+</head>
+
+<body>
+    <main>
+        <div class="scroll-watcher"></div>
+        <header>
+            <div class="menuTopbar">
+                <div class="topBox">
+                    <div class="toplink">
+                        <div class="icon"><i class="fa-solid fa-phone"></i> &nbsp; <a href="#">&lpar;414&rpar;
+                                8570107</a>
+                        </div>
+                        <div class="icon"><i class="fa-regular fa-envelope"></i>&nbsp;<a
+                                href="#">yummy&commat;bistrpbliss</a></div>
+                    </div>
+                    <div class="topLogo">
+                        <ul>
+                            <li><a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13.5855" cy="13.5855" r="13.5855" fill="#F9F9F7"
+                                            fill-opacity="0.12" />
+                                        <path
+                                            d="M19.6009 10.6613C19.1943 10.842 18.7651 10.955 18.3133 11.0228C18.7651 10.7517 19.1265 10.3225 19.2847 9.8029C18.8555 10.0514 18.3811 10.2321 17.8615 10.3451C17.4549 9.91585 16.8676 9.64478 16.235 9.64478C15.0152 9.64478 14.0212 10.6387 14.0212 11.8586C14.0212 12.0393 14.0438 12.1974 14.089 12.3556C12.2592 12.2652 10.6102 11.3842 9.50328 10.0288C9.32256 10.3676 9.20961 10.7291 9.20961 11.1357C9.20961 11.9038 9.59364 12.5815 10.2036 12.9881C9.84212 12.9655 9.50328 12.8751 9.18702 12.717V12.7396C9.18702 13.8239 9.95507 14.7275 10.9716 14.9308C10.7909 14.976 10.5876 14.9986 10.3843 14.9986C10.2487 14.9986 10.0906 14.976 9.95507 14.9534C10.2487 15.8344 11.062 16.4895 12.0333 16.4895C11.2653 17.0768 10.3165 17.4383 9.27738 17.4383C9.09666 17.4383 8.91594 17.4383 8.75781 17.4157C9.75177 18.0482 10.9038 18.4096 12.1689 18.4096C16.2576 18.4096 18.494 15.0212 18.494 12.0845C18.494 11.9941 18.494 11.8812 18.494 11.7908C18.9232 11.4971 19.3073 11.1131 19.6009 10.6613Z"
+                                            fill="white" />
+                                    </svg></a></li>
+                            <li><a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13.7567" cy="13.5855" r="13.5855" fill="#F9F9F7"
+                                            fill-opacity="0.12" />
+                                        <path
+                                            d="M12.5013 19.7065V14.3174H10.6877V12.2172H12.5013V10.6683C12.5013 8.87084 13.5991 7.89209 15.2026 7.89209C15.9706 7.89209 16.6308 7.94927 16.8231 7.97483V9.85328L15.7111 9.85379C14.839 9.85379 14.6702 10.2682 14.6702 10.8763V12.2172H16.7499L16.4791 14.3174H14.6702V19.7065H12.5013Z"
+                                            fill="white" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="13.9276" cy="13.5855" r="13.5855" fill="#F9F9F7"
+                                            fill-opacity="0.12" />
+                                        <path
+                                            d="M13.9294 8.20062C15.6845 8.20062 15.8924 8.20719 16.5857 8.23881C17.0026 8.24391 17.4155 8.32046 17.8066 8.46513C18.0901 8.57449 18.3476 8.742 18.5625 8.9569C18.7774 9.1718 18.9449 9.42932 19.0543 9.71287C19.199 10.1039 19.2755 10.5168 19.2806 10.9337C19.3119 11.6271 19.3188 11.8349 19.3188 13.5901C19.3188 15.3452 19.3122 15.5531 19.2806 16.2464C19.2755 16.6633 19.199 17.0763 19.0543 17.4673C18.9449 17.7508 18.7774 18.0083 18.5625 18.2232C18.3476 18.4381 18.0901 18.6056 17.8066 18.715C17.4155 18.8597 17.0026 18.9362 16.5857 18.9413C15.8927 18.9726 15.6848 18.9795 13.9294 18.9795C12.1739 18.9795 11.966 18.9729 11.273 18.9413C10.8561 18.9362 10.4432 18.8597 10.0522 18.715C9.7686 18.6056 9.51109 18.4381 9.29619 18.2232C9.08129 18.0083 8.91377 17.7508 8.80442 17.4673C8.65975 17.0763 8.5832 16.6633 8.5781 16.2464C8.54679 15.5531 8.53991 15.3452 8.53991 13.5901C8.53991 11.8349 8.54648 11.6271 8.5781 10.9337C8.5832 10.5168 8.65975 10.1039 8.80442 9.71287C8.91377 9.42932 9.08129 9.1718 9.29619 8.9569C9.51109 8.742 9.7686 8.57449 10.0522 8.46513C10.4432 8.32046 10.8561 8.24391 11.273 8.23881C11.9663 8.20751 12.1742 8.20062 13.9294 8.20062ZM13.9294 7.01611C12.1451 7.01611 11.9203 7.02363 11.2191 7.05556C10.6735 7.06641 10.1337 7.16971 9.62268 7.36107C9.18428 7.52625 8.7872 7.78509 8.45915 8.11955C8.12439 8.44772 7.86532 8.84503 7.70005 9.28371C7.50868 9.79476 7.40538 10.3346 7.39453 10.8802C7.36323 11.5807 7.35571 11.8055 7.35571 13.5898C7.35571 15.374 7.36323 15.5988 7.39515 16.3C7.40601 16.8456 7.50931 17.3854 7.70067 17.8964C7.86577 18.3351 8.12462 18.7324 8.45915 19.0606C8.78738 19.3951 9.18468 19.654 9.62331 19.8191C10.1344 20.0104 10.6742 20.1137 11.2198 20.1246C11.9209 20.1559 12.1448 20.164 13.93 20.164C15.7152 20.164 15.939 20.1565 16.6402 20.1246C17.1858 20.1137 17.7256 20.0104 18.2367 19.8191C18.6732 19.6498 19.0696 19.3914 19.4006 19.0602C19.7315 18.7291 19.9897 18.3325 20.1587 17.8958C20.35 17.3848 20.4533 16.8449 20.4642 16.2993C20.4955 15.5988 20.503 15.374 20.503 13.5898C20.503 11.8055 20.4955 11.5807 20.4636 10.8795C20.4527 10.3339 20.3494 9.79413 20.158 9.28308C19.9929 8.84446 19.7341 8.44715 19.3996 8.11892C19.0713 7.78439 18.674 7.52554 18.2354 7.36045C17.7243 7.16909 17.1845 7.06578 16.6389 7.05493C15.9384 7.02363 15.7136 7.01611 13.9294 7.01611Z"
+                                            fill="white" />
+                                        <path
+                                            d="M13.9277 10.2178C13.2601 10.2178 12.6074 10.4158 12.0523 10.7867C11.4971 11.1576 11.0645 11.6848 10.809 12.3017C10.5535 12.9185 10.4866 13.5972 10.6169 14.2521C10.7471 14.9069 11.0686 15.5084 11.5407 15.9805C12.0128 16.4526 12.6143 16.7741 13.2692 16.9044C13.924 17.0346 14.6027 16.9678 15.2196 16.7123C15.8364 16.4568 16.3636 16.0241 16.7345 15.4689C17.1055 14.9138 17.3034 14.2611 17.3034 13.5935C17.3034 12.6982 16.9478 11.8396 16.3147 11.2065C15.6816 10.5734 14.823 10.2178 13.9277 10.2178ZM13.9277 15.7847C13.4943 15.7847 13.0707 15.6562 12.7104 15.4154C12.35 15.1746 12.0692 14.8324 11.9033 14.432C11.7375 14.0316 11.6941 13.5911 11.7786 13.166C11.8632 12.741 12.0719 12.3505 12.3783 12.0441C12.6847 11.7376 13.0752 11.5289 13.5002 11.4444C13.9253 11.3598 14.3659 11.4032 14.7663 11.5691C15.1667 11.7349 15.5089 12.0158 15.7497 12.3761C15.9904 12.7365 16.1189 13.1601 16.1189 13.5935C16.1189 14.1746 15.8881 14.732 15.4771 15.1429C15.0662 15.5538 14.5089 15.7847 13.9277 15.7847Z"
+                                            fill="white" />
+                                        <path
+                                            d="M17.4483 10.8711C17.8839 10.8711 18.2371 10.518 18.2371 10.0823C18.2371 9.64663 17.8839 9.29346 17.4483 9.29346C17.0126 9.29346 16.6594 9.64663 16.6594 10.0823C16.6594 10.518 17.0126 10.8711 17.4483 10.8711Z"
+                                            fill="white" />
+                                    </svg>
+                                </a></li>
+                            <li>
+                                <a href="#"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="14.0987" cy="13.5855" r="13.5855" fill="#F9F9F7"
+                                            fill-opacity="0.12" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M14.7063 7.01611C11.2216 7.01611 8.41821 9.81954 8.41821 13.3042C8.41821 16.0814 10.226 18.4394 12.7151 19.2778C13.0295 19.3302 13.1343 19.1468 13.1343 18.9634C13.1343 18.8062 13.1343 18.4132 13.1343 17.8892C11.3788 18.2822 11.012 17.0508 11.012 17.0508C10.7238 16.3172 10.3046 16.1338 10.3046 16.1338C9.72822 15.7408 10.357 15.7408 10.357 15.7408C10.9858 15.7932 11.3264 16.3958 11.3264 16.3958C11.8766 17.3652 12.7937 17.077 13.1605 16.9198C13.2129 16.5006 13.3701 16.2386 13.5535 16.0814C12.1648 15.9242 10.6976 15.374 10.6976 12.9636C10.6976 12.2824 10.9334 11.706 11.3526 11.2868C11.3002 11.1295 11.0644 10.5007 11.405 9.60994C11.405 9.60994 11.929 9.45273 13.1343 10.2649C13.6321 10.1339 14.1823 10.0553 14.7063 10.0553C15.2303 10.0553 15.7805 10.1339 16.2783 10.2649C17.4835 9.45273 18.0075 9.60994 18.0075 9.60994C18.3481 10.4745 18.1385 11.1033 18.0599 11.2868C18.4529 11.7322 18.7149 12.2824 18.7149 12.9636C18.7149 15.374 17.2477 15.898 15.8329 16.0552C16.0687 16.2386 16.2521 16.6316 16.2521 17.208C16.2521 18.0464 16.2521 18.7276 16.2521 18.9372C16.2521 19.0944 16.3569 19.304 16.6975 19.2516C19.1865 18.4394 20.9943 16.0814 20.9943 13.3042C20.9943 9.81954 18.1909 7.01611 14.7063 7.01611Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <div class="headlogo">
+                    <img src="/media/images/Logo.svg" alt="">
+                    <ul>
+                        <li><a href="./index.html" target="_blank" class="navbtn">Home</a></li>
+                        <li><a href="./bistroAbout.html" target="_blank" class="navbtn">About</a></li>
+                        <li><a href="./menu.html" target="_blank" class="navbtn">Menu</a></li>
+                        <li><a href="./BlogArticle.html" target="_blank" class="navbtn">Pages</a></li>
+                        <li><a href="#" class="navbtn">Contact</a></li>
+                    </ul>
+                    <div class="bookbtn">
+                        <a href="./bookTable.html" target="_blank" class="bookAt">Book A Ticket</a>
+                    </div>
+                    <div class="hamMenubtn">
+                        <button id="hambtn"><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                </div>
+                <div id="hamBox" class="hamHide">
+                    <div class="innerHbox">
+                        <ul>
+                            <li><a href="./bistroAbout.html">About</a></li>
+                            <li><a href="./menu.html">Menu</a></li>
+                            <li><a href="./BlogArticle.html">Pages</a></li>
+                            <li><a href="./">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="bckimg">
+                <div class="centerd">
+                    <h1>Best food for <br> your taste</h1>
+                    <p>Discover delectable cuisine and unforgettable moments <br> in our welcoming&comma; culinary
+                        haven&period;</p>
+                    <a href="./bookTable.html" target="_blank"><button type="button" class="imgobtn">Book A
+                            Table</button></a>
+                    <a href="./menu.html" target="_blank"><button type="button" class="imgsbtn">Explore
+                            Menu</button></a>
+                </div>
+            </div>
+        </header>
+        <section class="section1">
+            <div class="sec1Head">
+                <h2>Browse Our Menu</h2>
+            </div>
+            <div class="menubox">
+                <div class="menucard">
+                    <img src="/media/icon/brekfast.svg" alt="">
+                    <h3>Breakfast</h3>
+                    <p>In the new era of technology we look in the future with certainty and pride for our lif&period;
+                    </p>
+                    <a href="./menu.html" target="_blank"><b>Explore menu</b></a>
+                </div>
+
+                <div class="menucard">
+                    <img src="/media/icon/main_dish.svg" alt="">
+                    <h3>Main Dishes</h3>
+                    <p>In the new era of technology we look in the future with certainty and pride for our lif&period;
+                    </p>
+                    <a href="./menu.html" target="_blank"><b>Explore menu</b></a>
+                </div>
+                <div class="menucard">
+                    <img src="/media/icon/drinks.svg" alt="">
+                    <h3>Drinks</h3>
+                    <p>In the new era of technology we look in the future with certainty and pride for our lif&period;
+                    </p>
+                    <a href="./menu.html" target="_blank"><b>Explore menu</b></a>
+                </div>
+                <div class="menucard">
+                    <img src="/media/icon/dessert.svg" alt="">
+                    <h3>Desserts</h3>
+                    <p>In the new era of technology we look in the future with certainty and pride for our lif&period;
+                    </p>
+                    <a href="./menu.html" target="_blank"><b>Explore menu</b></a>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="merg">
+                <div class="mergImg">
+                    <img src="/media/images/provide_health.png" alt="">
+                    <div class="cvus">
+                        <h3>Come and visit us</h3>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            &nbsp; <a href="#">&lpar;414&rpar; 857 0107</a><br><br>
+                            <i class="fa-regular fa-envelope"></i>&nbsp;<a href="#"></a>&nbsp;yummy&commat;bistrpbliss
+                            <br><br>
+                            <address><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;837 W&period; Marshall Lane
+                                Marshalltown&comma; IA 50158&comma; Los Angeles</address>
+                        </div>
+                    </div>
+                </div>
+                <div class="cuvs2">
+                    <h2>We provide healthy <br> food for your family&period;</h2>
+                    <b>Our story began with a vision to create a unique dining <br> experience that merges fine
+                        dining&comma;
+                        exceptional service&comma; and a <br> vibrant ambiance&period; Rooted in city's rich
+                        culinary culture&comma; we aim
+                        to <br>
+                        honor our local roots while infusing a global palate.</b>
+                    <p>At place&comma; we believe that dining is not just about food&comma; but also about the
+                        overall experience&period;
+                        Our staff, renowned for their warmth and dedication&comma; strives to make every visit an
+                        unforgettable event&period;</p>
+                    <button type="button" class="imgsbtn">More Abot Us</button>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="subBox">
+                <div class="subhead">
+                    <h2>We also offer unique <br> services for your events</h2>
+                </div>
+                <div class="box">
+                    <div class="eventsbox ">
+                        <img src="/media/images/caterings.png" alt="caterings">
+                        <div class="eventInfo">
+                            <h3>Caterings</h3>
+                            <p>In the new era of technology we look <br> in the future with certainty for life.</p>
+                        </div>
+                    </div>
+                    <div class="eventsbox">
+                        <img src="/media/images/birthday.png" alt="caterings">
+                        <div class="eventInfo">
+                            <h3>Birthdays</h3>
+                            <p>In the new era of technology we look <br> in the future with certainty for life.</p>
+                        </div>
+                    </div>
+                    <div class="eventsbox">
+                        <img src="/media/images/weddings.png" alt="caterings">
+                        <div class="eventInfo">
+                            <h3>Weddings</h3>
+                            <p>In the new era of technology we look <br> in the future with certainty for life.</p>
+                        </div>
+                    </div>
+                    <div class="eventsbox">
+                        <img src="/media/images/events.png" alt="caterings">
+                        <div class="eventInfo">
+                            <h3>Events</h3>
+                            <p>In the new era of technology we look <br> in the future with certainty for life.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="main">
+                <div class="imgSec">
+                    <div class="img1">
+                        <img src="/media/images/men_chef.png" alt="">
+                    </div>
+                    <div class="colImg">
+                        <div class="img2">
+                            <img src="/media/images/sour-curry-with-snakehead-fish-spicy-garden-hot-pot-thai-food_1.png"
+                                alt="">
+                        </div>
+                        <div class="img3">
+                            <img src="/media/images/sadj-iron-pot-with-various-salads_1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="infoSec">
+                    <h2>Fastest Food <br> Delivery in City</h2>
+                    <p>Our visual designer lets you quickly and of drag a down <br> your way to customapps for both keep
+                        desktop. </p>
+                    <p><b><img src="/media/icon/delivery.svg" alt="">&nbsp;&nbsp;&nbsp;<span>Delivery within 30
+                                minutes</span></b></p>
+                    <p><b><img src="/media/icon/bestOffer.svg" alt="">&nbsp;&nbsp;&nbsp;Best Offer & Prices</b></p>
+                    <p><b><img src="/media/icon/onlineServices.svg" alt="">&nbsp;&nbsp;&nbsp;Online Services
+                            Available</b></p>
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="sec5head">
+                <h2>What Our Customers Say</h2>
+            </div>
+            <div class="customerBox">
+                <div class="sayBox sbMrg">
+                    <h3><q>The best restaurant</q></h3>
+                    <p>Last night&comma; we dined at place and were <br> simply blown away&period; From the moment we
+                        stepped in&comma; we were enveloped in an<br> inviting atmosphere and greeted with<br> warm
+                        smiles&period;</p>
+                    <hr>
+                    <div class="customerimg">
+                        <img src="/media/images/SophireRobson.png" alt="">
+                        <div>
+                            <p> <b>Sophire Robson</b></p>
+                            <p>Los Angeles&comma; CA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sayBox sbMrg">
+                    <h3>
+                        <q>Simply delicious</q>
+                    </h3>
+                    <p>Place exceeded my expectations on all <br> fronts&period; The ambiance was cozy and <br>
+                        relaxed&comma; making it a perfect venue for our <br> anniversary dinner&period; Each dish was
+                        <br> prepared and beautifully presented&period;
+                    </p>
+                    <hr>
+                    <div class="customerimg">
+                        <img src="/media/images/MattCannon.png" alt="">
+                        <div>
+                            <p><b>Matt Cannon</b></p>
+                            <p>San Diego&period; CA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sayBox">
+                    <h3>
+                        <q>One of a kind restaurant</q>
+                    </h3>
+                    <p>The culinary experience at place is first to none&period; The atmosphere is vibrant&comma; the
+                        food - nothing short of extraordinary&period; The food Lorem, ipsum dolor.
+                        was the highlight of our evening&period;
+                        Highly recommended&period;</p>
+                    <hr>
+                    <div class="customerimg">
+                        <img src="/media/images/AndySmith.png" alt="">
+                        <div>
+                            <p><b>Andy Smith</b></p>
+                            <p>San Francisco&period; CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section6">
+            <div class="blogBox">
+                <div class="bloghead">
+                    <h2>Our Blog & Articles</h2>
+                    <a href="./BlogArticle.html" target="_blank"><button type="button" class="blogbtn">Read All
+                            Articles</button></a>
+                </div>
+                <div class="ourfoodContainer">
+                    <div class="burgir">
+                        <img src="/media/images/Burgar.png" alt="">
+                        <div class="burinfo">
+                            <p>January 3&nbsp; 2023</p>
+                            <b>The secret tips & tricks to prepare a perfect burger & pizza <br> for our customers</b>
+                            <p>Lorem ipsum dolor sit amet consectetur of a adipiscing elitilmim semper <br> adipiscing
+                                massa
+                                gravida nisi cras enim quis nibholm varius amet gravida <br> ut facilisis neque
+                                egestas&period;</p>
+                        </div>
+                    </div>
+                    <div class="foonInrCont">
+                        <div class="sec5Blogcard">
+                            <img class="cImg" src="/media/images/fries.png" alt="">
+                            <div class="foodinfo">
+                                <p>January 3&nbsp; 2023</p>
+                                <b>How to prepare the perfect french fries in an air fryer</b>
+                            </div>
+                        </div>
+                        <div class="sec5Blogcard">
+                            <img class="cImg" src="/media/images/cNugets.png" alt="">
+                            <div class="foodinfo">
+                                <p>January 3&nbsp; 2023</p>
+                                <b>How to prepare delicious chicken tenders</b>
+                            </div>
+                        </div>
+                        <div class="sec5Blogcard">
+                            <img class="cImg" src="/media/images/cupCake.png" alt="">
+                            <div class="foodinfo">
+                                <p>January 3&nbsp; 2023</p>
+                                <b>7 delicious cheesecake recipes you can prepare</b>
+                            </div>
+                        </div>
+                        <div class="sec5Blogcard">
+                            <img class="cImg" src="/media/images/pizza.png" alt="">
+                            <div class="foodinfo">
+                                <p>January 3&nbsp; 2023</p>
+                                <b>5 great pizza restaurants you should visit this city</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footbox">
+                <div class="footlogo">
+                    <p>In the new era of technology we look a <br> in the future with certainty and pride to for our
+                        company and&period;</p>
+                    <ul>
+                        <li>
+                            <a href="#"><svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#AD343E" />
+                                    <path
+                                        d="M25.2487 13.7333C24.7249 13.9661 24.172 14.1116 23.59 14.1989C24.172 13.8497 24.6376 13.2968 24.8413 12.6275C24.2884 12.9476 23.6773 13.1804 23.0081 13.3259C22.4843 12.773 21.7277 12.4238 20.9129 12.4238C19.3416 12.4238 18.0613 13.7042 18.0613 15.2755C18.0613 15.5083 18.0904 15.712 18.1486 15.9157C15.7916 15.7993 13.6673 14.6644 12.2415 12.9185C12.0087 13.355 11.8632 13.8206 11.8632 14.3443C11.8632 15.3337 12.3579 16.2067 13.1436 16.7304C12.678 16.7013 12.2415 16.585 11.8341 16.3813V16.4104C11.8341 17.8071 12.8235 18.971 14.1329 19.2329C13.9001 19.2911 13.6383 19.3202 13.3764 19.3202C13.2018 19.3202 12.9981 19.2911 12.8235 19.262C13.2018 20.3969 14.2493 21.2408 15.5006 21.2408C14.5112 21.9973 13.2891 22.4629 11.9505 22.4629C11.7177 22.4629 11.4849 22.4629 11.2812 22.4338C12.5616 23.2486 14.0456 23.7141 15.6752 23.7141C20.942 23.7141 23.8228 19.3493 23.8228 15.5665C23.8228 15.4501 23.8228 15.3046 23.8228 15.1882C24.3757 14.8099 24.8704 14.3152 25.2487 13.7333Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#AD343E" />
+                                    <path
+                                        d="M15.883 25.3846V18.4427H13.5469V15.7373H15.883V13.7421C15.883 11.4268 17.2971 10.166 19.3626 10.166C20.352 10.166 21.2023 10.2397 21.4501 10.2726V12.6923L20.0176 12.6929C18.8943 12.6929 18.6768 13.2267 18.6768 14.01V15.7373H21.3558L21.007 18.4427H18.6768V25.3846H15.883Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#AD343E" />
+                                    <path
+                                        d="M17.499 10.5639C19.7599 10.5639 20.0276 10.5724 20.9208 10.6131C21.4578 10.6197 21.9897 10.7183 22.4933 10.9046C22.8586 11.0455 23.1903 11.2613 23.4671 11.5381C23.744 11.8149 23.9597 12.1466 24.1006 12.5119C24.287 13.0156 24.3856 13.5475 24.3921 14.0845C24.4325 14.9776 24.4413 15.2453 24.4413 17.5062C24.4413 19.7671 24.4329 20.0349 24.3921 20.928C24.3856 21.465 24.287 21.9969 24.1006 22.5006C23.9597 22.8658 23.744 23.1976 23.4671 23.4744C23.1903 23.7512 22.8586 23.967 22.4933 24.1078C21.9897 24.2942 21.4578 24.3928 20.9208 24.3994C20.028 24.4397 19.7603 24.4486 17.499 24.4486C15.2377 24.4486 14.97 24.4401 14.0772 24.3994C13.5402 24.3928 13.0083 24.2942 12.5046 24.1078C12.1394 23.967 11.8077 23.7512 11.5308 23.4744C11.254 23.1976 11.0382 22.8658 10.8974 22.5006C10.711 21.9969 10.6124 21.465 10.6058 20.928C10.5655 20.0349 10.5567 19.7671 10.5567 17.5062C10.5567 15.2453 10.5651 14.9776 10.6058 14.0845C10.6124 13.5475 10.711 13.0156 10.8974 12.5119C11.0382 12.1466 11.254 11.8149 11.5308 11.5381C11.8077 11.2613 12.1394 11.0455 12.5046 10.9046C13.0083 10.7183 13.5402 10.6197 14.0772 10.6131C14.9704 10.5728 15.2381 10.5639 17.499 10.5639ZM17.499 9.03809C15.2006 9.03809 14.9111 9.04776 14.0079 9.08889C13.3051 9.10287 12.6097 9.23594 11.9514 9.48244C11.3867 9.69521 10.8752 10.0286 10.4526 10.4595C10.0214 10.8822 9.6877 11.394 9.4748 11.9591C9.2283 12.6174 9.09523 13.3127 9.08125 14.0155C9.04093 14.9179 9.03125 15.2074 9.03125 17.5058C9.03125 19.8042 9.04093 20.0937 9.08206 20.997C9.09604 21.6998 9.22911 22.3951 9.4756 23.0534C9.68827 23.6184 10.0217 24.1302 10.4526 24.553C10.8754 24.9839 11.3872 25.3174 11.9522 25.53C12.6105 25.7765 13.3059 25.9096 14.0087 25.9236C14.9119 25.9639 15.2002 25.9744 17.4998 25.9744C19.7994 25.9744 20.0877 25.9647 20.9909 25.9236C21.6937 25.9096 22.3891 25.7765 23.0474 25.53C23.6097 25.3121 24.1204 24.9791 24.5467 24.5525C24.973 24.1259 25.3056 23.6151 25.5232 23.0526C25.7697 22.3943 25.9028 21.699 25.9167 20.9962C25.9571 20.0937 25.9667 19.8042 25.9667 17.5058C25.9667 15.2074 25.9571 14.9179 25.9159 14.0147C25.9019 13.3119 25.7689 12.6166 25.5224 11.9582C25.3097 11.3932 24.9763 10.8815 24.5454 10.4587C24.1225 10.0277 23.6108 9.6943 23.0458 9.48163C22.3875 9.23513 21.6921 9.10206 20.9893 9.08809C20.0869 9.04776 19.7974 9.03809 17.499 9.03809Z"
+                                        fill="white" />
+                                    <path
+                                        d="M17.4968 13.1621C16.6368 13.1621 15.7961 13.4171 15.081 13.8949C14.3659 14.3728 13.8086 15.0519 13.4794 15.8464C13.1503 16.641 13.0642 17.5153 13.232 18.3588C13.3998 19.2023 13.8139 19.9771 14.4221 20.5853C15.0302 21.1934 15.805 21.6075 16.6485 21.7753C17.492 21.9431 18.3663 21.857 19.1609 21.5279C19.9554 21.1988 20.6346 20.6414 21.1124 19.9263C21.5902 19.2112 21.8452 18.3705 21.8452 17.5105C21.8452 16.3572 21.3871 15.2512 20.5716 14.4357C19.7561 13.6202 18.6501 13.1621 17.4968 13.1621ZM17.4968 20.3331C16.9386 20.3331 16.3929 20.1675 15.9287 19.8574C15.4645 19.5472 15.1027 19.1064 14.8891 18.5907C14.6755 18.0749 14.6196 17.5074 14.7285 16.9598C14.8374 16.4123 15.1062 15.9094 15.501 15.5146C15.8957 15.1199 16.3986 14.8511 16.9462 14.7422C17.4937 14.6332 18.0612 14.6891 18.577 14.9028C19.0927 15.1164 19.5336 15.4782 19.8437 15.9424C20.1539 16.4065 20.3194 16.9522 20.3194 17.5105C20.3194 18.2591 20.022 18.977 19.4927 19.5064C18.9634 20.0357 18.2454 20.3331 17.4968 20.3331Z"
+                                        fill="white" />
+                                    <path
+                                        d="M22.0318 14.0039C22.5929 14.0039 23.0479 13.549 23.0479 12.9878C23.0479 12.4266 22.5929 11.9717 22.0318 11.9717C21.4706 11.9717 21.0156 12.4266 21.0156 12.9878C21.0156 13.549 21.4706 14.0039 22.0318 14.0039Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="17.5" cy="17.5" r="17.5" fill="#AD343E" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M18.2796 9.03809C13.7909 9.03809 10.1797 12.6493 10.1797 17.138C10.1797 20.7154 12.5084 23.7528 15.7146 24.8328C16.1196 24.9003 16.2546 24.6641 16.2546 24.4278C16.2546 24.2253 16.2546 23.7191 16.2546 23.0441C13.9934 23.5504 13.5209 21.9641 13.5209 21.9641C13.1496 21.0191 12.6096 20.7829 12.6096 20.7829C11.8672 20.2767 12.6771 20.2767 12.6771 20.2767C13.4871 20.3442 13.9259 21.1204 13.9259 21.1204C14.6346 22.3691 15.8158 21.9979 16.2883 21.7954C16.3558 21.2554 16.5583 20.9179 16.7946 20.7154C15.0059 20.5129 13.1159 19.8042 13.1159 16.6992C13.1159 15.8217 13.4196 15.0792 13.9596 14.5392C13.8921 14.3367 13.5884 13.5268 14.0271 12.3793C14.0271 12.3793 14.7021 12.1768 16.2546 13.223C16.8958 13.0543 17.6046 12.953 18.2796 12.953C18.9545 12.953 19.6633 13.0543 20.3045 13.223C21.857 12.1768 22.532 12.3793 22.532 12.3793C22.9707 13.493 22.7007 14.303 22.5995 14.5392C23.1057 15.113 23.4432 15.8217 23.4432 16.6992C23.4432 19.8042 21.5533 20.4791 19.7308 20.6816C20.0345 20.9179 20.2708 21.4241 20.2708 22.1666C20.2708 23.2466 20.2708 24.1241 20.2708 24.3941C20.2708 24.5966 20.4058 24.8666 20.8445 24.7991C24.0507 23.7528 26.3794 20.7154 26.3794 17.138C26.3794 12.6493 22.7682 9.03809 18.2796 9.03809Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="boxPUP">
+                    <div class="fPages">
+                        <p><b>Pages</b></p>
+                        <ul>
+                            <li><a href="./index.html">
+                                    <p>Home</p>
+                                </a></li>
+                            <li><a href="./bistroAbout.html">
+                                    <p>About</p>
+                                </a></li>
+                            <li><a href="./menu.html">
+                                    <p>Menu</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p>Pricing</p>
+                                </a></li>
+                            <li><a href="./BlogArticle.html">
+                                    <p>Blog</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p>Contact</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p>Delivery</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="fPages">
+                        <p><b>Utility Pages</b></p>
+                        <ul>
+                            <li><a href="#">
+                                    <p>Start Here</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p>Styleguide</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p>Password Protected</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p>404 Not Found</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p>Licenses</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p>Changelog</p>
+                                </a></li>
+                            <li><a href="#">
+                                    <p>View More</p>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fImg">
+                    <div class="fImgh">
+                        <b>Follow Us On Instagram</b>
+                    </div>
+                    <div class="fImgBox">
+                        <img src="/media/images/foot1Img.png" alt="">
+                        <img src="/media/images/foot2Img.png" alt="">
+                        <img src="/media/images/foot3Img.png" alt="">
+                        <img src="/media/images/foot4Img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="bistro.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

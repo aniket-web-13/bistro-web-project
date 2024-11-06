@@ -1,0 +1,35 @@
+.scroll-watcher {
+    height: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color:#AD343E;
+    width: 100%;
+    scale: 0 1;
+    animation: scroll-watcher linear;
+    animation-timeline: scroll();
+}
+
+
+@keyframes scroll-watcher {
+    to {
+        scale: 1 1;
+    }
+}
+
+// h2::after{
+// 	content: "";
+// 	position: absolute;
+// 	left: 0;
+// 	bottom: 0;
+// 	height: 3px;
+// 	width: 0%;
+// 	background-color: #333;
+// 	transition: all ease 1s;
+
+// }
+
+// h2:hover::after{
+// 	width: 100%;
+// }
+
