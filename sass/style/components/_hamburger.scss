@@ -41,11 +41,11 @@
 
 #hamBox {
     width: 100%;
-    background-color: #fff;
+    background-color: #AD343E;
     padding: 0.5rem;
     overflow-y: hidden;
     position: absolute;
-    top: 14.7%;
+    top: 14%;
     left: 0;
     transition: opacity 0.5s ease, max-height 0.5s ease-out;
 
@@ -88,7 +88,7 @@
 
                 a {
                     text-decoration: none;
-                    color: #474747;
+                    color: #fff;
                     font-weight: 700;
 
                     &:hover {
