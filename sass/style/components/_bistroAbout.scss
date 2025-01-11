@@ -1,213 +1,204 @@
 .aboutSec {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 3%;
+
+  .containtBox {
+    width: 70%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding: 3%;
+    row-gap: 2rem;
 
-    .containtBox {
-        width: 70%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        row-gap: 2rem;
-
-
-        .aboutHeading {
-            width: 85%;
-            height: fit-content;
-        }
-
-        .aboutImg1 {
-            width: 80%;
-            height: fit-content;
-
-            img {
-                width: 100%;
-                height: auto;
-                object-fit: cover;
-            }
-        }
-
-        .containBox2 {
-            width: 80%;
-            height: fit-content;
-
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            row-gap: 2rem;
-
-            .text1 {
-                width: 100%;
-                height: fit-content;
-
-                .innerTextH {
-                    width: 70%;
-                }
-
-                .innerTextP {
-                    width: 100%;
-                    height: fit-content;
-                    line-height: 1.5rem;
-
-                    p {
-                        padding: 1%;
-                    }
-                }
-            }
-
-            .aboutImg2 {
-                width: 100%;
-                height: fit-content;
-
-                img {
-                    width: 100%;
-                    height: auto;
-                    object-fit: cover;
-                }
-            }
-        }
+    .aboutHeading {
+      width: 85%;
+      height: fit-content;
     }
 
+    .aboutImg1 {
+      width: 80%;
+      height: fit-content;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+
+    .containBox2 {
+      width: 80%;
+      height: fit-content;
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      row-gap: 2rem;
+
+      .text1 {
+        width: 100%;
+        height: fit-content;
+
+        .innerTextH {
+          width: 70%;
+        }
+
+        .innerTextP {
+          width: 100%;
+          height: fit-content;
+          line-height: 1.5rem;
+
+          p {
+            padding: 1%;
+          }
+        }
+      }
+
+      .aboutImg2 {
+        width: 100%;
+        height: fit-content;
+
+        img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+    }
+  }
 }
 
 .aboutSec2 {
-    width: 100%;
-    display: flex;
-    background: #F9F9F7;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 3%;
+  width: 100%;
+  display: flex;
+  background: #f9f9f7;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 3%;
 
-    .containtBox2 {
-        width: 70%;
-        padding: 0.5rem;
+  .containtBox2 {
+    width: 70%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .innerContainBox1 {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      row-gap: 2rem;
+
+      .innerInfo1 {
+        width: 87%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 0.5rem;
+
+        h2 {
+          text-align: left;
+        }
+      }
+
+      .innerInfo2 {
+        width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+        gap: 1rem;
 
-
-        .innerContainBox1 {
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            row-gap: 2rem;
-
-            .innerInfo1 {
-                width: 87%;
-                height: fit-content;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                row-gap: 0.5rem;
-
-                h2 {
-                    text-align: left;
-                }
-
-
-            }
-
-            .innerInfo2 {
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                gap: 1rem;
-
-                .innerInfoBox {
-                    width: 18.313rem;
-                    padding: 2rem;
-                    background-color: #ffffff;
-                    border-radius: 0.5rem;
-                    border: 1px solid lightgrey;
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    align-items: center;
-                    row-gap: 0.5rem;
-                }
-            }
-
+        .innerInfoBox {
+          width: 18.313rem;
+          padding: 2rem;
+          background-color: #ffffff;
+          border-radius: 0.5rem;
+          border: 1px solid lightgrey;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          align-items: center;
+          row-gap: 0.5rem;
         }
-
-        .innerContainBox2 {
-            width: 45%;
-            height: fit-content;
-
-            img {
-                width: 100%;
-                height: auto;
-                object-fit: cover;
-            }
-
-        }
-
+      }
     }
 
+    .innerContainBox2 {
+      width: 45%;
+      height: fit-content;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+  }
 }
 
 .aboutSec3 {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 3%;
+
+  .containtBox3 {
+    width: 72%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    padding: 3%;
+    row-gap: 2rem;
 
+    .infoSecbox {
+      width: 50%;
+      padding: 1%;
+      text-align: center;
+    }
 
-    .containtBox3 {
-        width: 72%;
+    .aboutCardRow {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .aboutCard {
+        width: 306px;
+        border-radius: 12px;
+        background-color: #fff;
+        box-sizing: border-box;
         display: flex;
+        border: 1px solid #cecdcd;
         flex-direction: column;
         flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        row-gap: 2rem;
+        overflow: hidden;
+        box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.4),
+          0 5px 5px 0 rgba(0, 0, 0, 0.2);
 
-        .infoSecbox {
-            width: 50%;
-            padding: 1%;
-            text-align: center;
+        .aboutCardDesp {
+          width: 98%;
+          margin: 0;
+          padding: 2.5rem;
+          height: fit-content;
+          border-radius: 12px;
         }
-
-        .aboutCardRow {
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-
-            .aboutCard {
-                width: 306px;
-                border-radius: 12px;
-                background-color: #fff;
-                box-sizing: border-box;
-                display: flex;
-                border: 1px solid #cecdcd;
-                flex-direction: column;
-                flex-wrap: wrap;
-                align-content: space-between;
-                justify-content: space-around;
-                align-items: center;
-                overflow: hidden;
-                box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.4), 0 5px 5px 0 rgba(0, 0, 0, 0.20);
-
-                .aboutCardDesp {
-                    width: 98%;
-                    margin: 0;
-                    padding: 2.5rem;
-                    height: fit-content;
-                    border-radius: 12px;
-                }
-            }
-        }
+      }
     }
+  }
 }

@@ -82,7 +82,7 @@
                         <li><a href="#" class="navbtn">Contact</a></li>
                     </ul>
                     <div class="bookbtn">
-                        <a href="./bookTable.html" target="_blank" class="bookAt">Book A Ticket</a>
+                        <button class="bookAt" id="tableTog">Book A Ticket</button>
                     </div>
                     <div class="hamMenubtn">
                         <button id="hambtn"><i class="fa-solid fa-bars"></i></button>
@@ -111,6 +111,56 @@
                 </div>
             </div>
         </header>
+        <section class="table-hs" id="tableHs">
+            <div class="tblForm-2">
+                <div class="form-close">
+                    <button class="table-close" id="tableClose">
+                        <i class="fa-solid fa-x"></i>
+                    </button>
+                </div>
+                <div class="formInr">                   
+                    <div class="dtBox1">
+                        <div class="dtBox">
+                            <b>Date</b>
+                            <input type="datetime-local" class="inputF">
+                        </div>
+                        <div class="dtBox">
+                            <b>Time</b>
+                            <input type="time" class="inputF">
+                        </div>
+                    </div>
+                    <div class="dtBox1">
+                        <div class="dtBox">
+                            <b>Name</b>
+                            <input type="text" class="inputF">
+                        </div>
+                        <div class="dtBox">
+                            <b>Phone</b>
+                            <input type="number" class="inputF" placeholder="x-xxx-xxx-xxxx">
+                        </div>
+                    </div>
+                    <div class="dtBox1">
+                        <div class="tPerson">
+                            <label for="person"><b>Person</b></label>
+                            <select class="person2" id="person" name="person">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="dtBox1">
+                        <div class="tPerson">
+                            <a href="#" class="batBtn">Book&nbsp;A&nbsp;Table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="section1">
             <div class="sec1Head">
                 <h2>Browse Our Menu</h2>
@@ -474,6 +524,7 @@
         </footer>
     </main>
     <script src="bistro.js"></script>
+    <script src="tableToggle.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
         integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
